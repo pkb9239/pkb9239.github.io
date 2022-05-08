@@ -11,7 +11,7 @@ sidebar:
 
 # ES6 문법 map, filter, reduce 
 
-우리는 보통 반복문을 사용해야 할 경우 전통적인 반복문 for를 사용한다.
+우리는 보통 반복문을 사용해야 할 경우 전통적인 반복문 `for`를 사용한다.
 
 예제를 활용하여 전통적인 반복문 3가지 정도를 보여주겠다.
 
@@ -48,11 +48,13 @@ const animals = [
 
 
 
-이러한 전통적인 반복문 말고 ES6에 새로 추가된 반복문 forEach, map, filter, reduce 가 있다.
+이러한 전통적인 반복문 말고 ES6에 새로 추가된 반복문 `forEach`,` map`, `filter`, `reduce` 가 있다.
 
 
 
 ## forEach
+
+- `forEach(ele, index)`에서 첫번째 인자는 요소이고, 두번째 인자는 인덱스 값이다. 
 
 ```js
 animals.forEach(function(animal, index) {
@@ -69,7 +71,7 @@ animals.forEach(function(animal, index) {
 
 ## map
 
-- map(맵)은 어떤 배열을 다른 형태의 배열로 재생성할 때 사용하는 반복문이다.
+- `map`(맵)은 어떤 배열을 다른 형태의 배열로 재생성할 때 사용하는 반복문이다.
 
   ```js
   const animalsNames = animals.map(function(animal){
@@ -82,7 +84,7 @@ animals.forEach(function(animal, index) {
 
 ## filter
 
-- filter는 배열 안에서 특정 조건을 가진 아이템들을 뽑아서 배열로 나타내주는 반복문이다.
+- `filter`는 배열 안에서 특정 조건을 가진 아이템들을 뽑아서 배열로 나타내주는 반복문이다.
 
   ```js
   const smallAnimal = animals.filter(function(item) {
@@ -96,7 +98,7 @@ animals.forEach(function(animal, index) {
 
 ## reduce
 
-- reduce는 배열 안에 값들의 합을 구할 때 사용한다.
+- `reduce`는 배열 안에 값들의 합을 구할 때 사용한다.
 
   ```js
   const numbers = [1, 10, 11, 23, 444];
