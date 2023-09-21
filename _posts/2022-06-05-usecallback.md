@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "React Hooks: useMemo, useCallback"
-categories: [React, Next.js, 개념 정리]
+categories: [React, Next.js, Basic]
 tag: [React, useCallback, useMemo]
 toc: true
 author_profile: false
@@ -233,6 +233,6 @@ App.js에서 useCallback을 import 하고 onChangeHandler함수의 선언부를 
 
 
 
-참조: (https://leehwarang.github.io/docs/tech/2020-05-02-useMemo&useCallback.html)
+참조: [(https://leehwarang.github.io/docs/tech/2020-05-02-useMemo&useCallback.html)]()
 
-참조: (https://ko.reactjs.org/docs/hooks-reference.html)
+참조: [(https://ko.reactjs.org/docs/hooks-reference.html)]()
